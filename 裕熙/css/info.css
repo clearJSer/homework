@@ -1,8 +1,17 @@
 .item:nth-child(odd){
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
+    margin-bottom: 50px;
+    font-weight: 500;
 }
 .item:nth-child(even){
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+.item  div{
+    padding-top: 5px;
 }
