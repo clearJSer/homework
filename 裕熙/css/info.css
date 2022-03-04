@@ -1,17 +1,25 @@
 .item:nth-child(odd){
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    align-items: flex-end;
     margin-bottom: 50px;
     font-weight: 500;
 }
 .item:nth-child(even){
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     margin-bottom: 50px;
     font-weight: 500;
 }
 .item  div{
     padding-top: 5px;
+}
+/* 标题 */
+.title{
+    font-size: 80px;
+    text-align: center;
+    width: 100%;
+    font-weight: 500;
+    padding:30px 0;
 }
